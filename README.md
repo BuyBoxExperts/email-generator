@@ -2,6 +2,7 @@
 
 Generate a random email address from the terminal.
 
+[![Build Status](https://travis-ci.com/BuyBoxExperts/email-generator.svg?branch=master)](https://travis-ci.com/BuyBoxExperts/email-generator)
 [![Licence](https://img.shields.io/github/license/buyboxexperts/email-generator)](LICENSE)
 
 BuyBox Experts has thousands of Amazon clients and needed a way to create email aliases for each of them so we could accept permissions from the Amazon platform from each client to this email alias without the need to conform to wonky naming schemes or spend time building individual, custom email aliases for each one. Email Generator will generate a random email alias upon invocation.
