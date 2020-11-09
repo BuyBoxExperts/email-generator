@@ -3,9 +3,12 @@
 # Generate a random email address from the terminal.
 
 main() {
-    local alias="amazon"
-    local domain="buyboxexperts.com"
-    local email=$(openssl rand -hex 8)
+    local alias
+    local domain
+    local email
+    alias="amazon"
+    domain="buyboxexperts.com"
+    email=$(openssl rand -hex 8)
     echo -e "\nGenerated Email:\n$alias+$email@$domain\n"
 }
 
